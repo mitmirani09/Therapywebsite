@@ -1,0 +1,43 @@
+{
+  "name": "therapy",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/icons-material": "^5.16.7",
+    "@mui/material": "^5.16.7",
+    "axios": "^1.7.7",
+    "firebase": "^10.12.2",
+    "jquery": "^3.7.1",
+    "next": "14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18",
+    "react-draggable": "^4.4.6",
+    "react-draggable-list": "^4.2.1",
+    "react-redux": "^9.1.2",
+    "redux": "^5.0.1",
+    "survey-core": "^1.12.7",
+    "survey-creator-core": "^1.12.7",
+    "survey-creator-react": "^1.12.7",
+    "survey-react-ui": "^1.12.7",
+    "zustand": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}

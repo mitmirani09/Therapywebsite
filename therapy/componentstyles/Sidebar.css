@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  background-color: #e9ecef;
+}
+
+.sidebar {
+  width: 15%; /* Adjust width as needed */
+
+  background-color: white;
+  position: fixed; /* Keep the sidebar in place */
+  top: 0;
+  left: 0;
+  height: 100vh;
+}
+
+.logo {
+  /* Style your logo container */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.pending-section h3 {
+  margin-top: 0;
+}
+
+.pending-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pending-section li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  cursor: pointer;
+}
+
+.pending-section li.active {
+  background-color: #e9ecef; /* Highlight the active tab */
+}
